@@ -355,12 +355,14 @@ const ProfileCardComponent = ({
                 </div>
               )}
             </div>
-            <div className="pc-content">
-              <div className="pc-details">
-                <h3>{name}</h3>
-                <p>{title}</p>
+            {showUserInfo && (
+              <div className="pc-content">
+                <div className="pc-details">
+                  <h3>{name}</h3>
+                  <p>{title}</p>
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </section>
       </div>
