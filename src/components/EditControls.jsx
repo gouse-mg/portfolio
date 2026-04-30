@@ -19,7 +19,7 @@ const EditControls = () => {
 
   const handleVerify = (e) => {
     e.preventDefault();
-    if (password === '123') {
+    if (password === '40024002gouseWanti') {
       setIsEditing(true);
       setShowModal(false);
       setPassword('');
@@ -37,8 +37,8 @@ const EditControls = () => {
 
   return (
     <>
-      <button 
-        className={`floating-edit-btn ${isEditing ? 'editing' : ''}`} 
+      <button
+        className={`floating-edit-btn ${isEditing ? 'editing' : ''}`}
         onClick={handleToggle}
         aria-label={isEditing ? "Finish Editing" : "Edit Portfolio"}
         title={isEditing ? "Finish Editing" : "Edit Portfolio"}
