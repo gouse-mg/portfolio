@@ -6,6 +6,11 @@ const MainContent = () => {
   return (
     <main className="main-content-container">
       
+      <header className="main-intro">
+        <h1 className="main-title">MD Gouse</h1>
+        <p className="main-subtitle">Computer Science Student • Cyber Security</p>
+      </header>
+
       {/* SECTION 1: Projects */}
       <section className="scroll-section" id="projects">
         <h2>Selected Projects</h2>

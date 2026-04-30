@@ -13,7 +13,7 @@ const Sidebar = ({ isOpen }) => {
           status="Cyber Security"
           contactText="Contact Me"
           avatarUrl="/avatar.png"
-          showUserInfo={true}
+          showUserInfo={false}
           enableTilt={true}
           enableMobileTilt={false}
           behindGlowEnabled={false} /* Disabled here to fit cleanly in sidebar */
